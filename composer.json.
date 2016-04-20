@@ -5,11 +5,11 @@
 	"homepage": "http://haseeburrehman.com/",
 	"license": "MIT",
 	"authors": [
-		{
-			"name": "Haseeb Ur Rehman",
-			"homepage": "http://haseeburrehman.com"
-		}
-	],
+			{
+				"name": "Haseeb Ur Rehman",
+				"homepage": "http://haseeburrehman.com"
+			}
+		],
 	"autoload": {
 		"files": ["smartOutput.php"]
 	}
