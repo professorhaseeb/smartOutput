@@ -1,1 +1,1 @@
-# smartOutput
+# Smart Output
