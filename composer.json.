@@ -1,5 +1,6 @@
 {
 	"name": "professorhaseeb/smartOutput",
+	"version":"1.0",
 	"description": "Smart output for php, returns output in array, json, xml",
 	"keywords": ["json", "xml", "array"],
 	"homepage": "http://haseeburrehman.com/",
