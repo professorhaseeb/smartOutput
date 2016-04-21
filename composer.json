@@ -1,17 +1,17 @@
-{
-	"name": "professorhaseeb/smartOutput",
-	"version":"1.0",
-	"description": "Smart output for php, returns output in array, json, xml",
-	"keywords": ["json", "xml", "array"],
-	"homepage": "http://haseeburrehman.com/",
-	"license": "MIT",
-	"authors": [
-			{
-				"name": "Haseeb Ur Rehman",
-				"homepage": "http://haseeburrehman.com"
-			}
-		],
-	"autoload": {
-		"files": ["smartOutput.php"]
-	}
-}
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "professorhaseeb/smartOutput",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/professorhaseeb/smartOutput",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "files": ["smartOutput.php"]
+            }
+        }
+    }
+],
