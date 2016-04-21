@@ -2,25 +2,30 @@
 
 class smartOutput{
   
-  var $output;
+  public $output = array();
   
-  private $name, $value;
-  
-  function __construct(){
-    $this->output = $output;
+  public function __construct(){
+  	$this->output = $output;
   }
   
-  public function setData($name,$value){
+  
+  public function set($name, $value){
     $this->output[$name] = $value;
   }
   
-  public function output($format="json"){
+  public function output($format="array"){
     switch($format){
+    
       case "json":
-        echo json_encode($this->output);
+        return json_encode($this->output);
         break;
+        
+      case "array":
+      	return $this->output;
+      	break;
+      	
       default:
-        echo "invalid_output_format";
+        return "invalid_output_format";
     }
   }
   
