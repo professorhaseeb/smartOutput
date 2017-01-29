@@ -1,17 +1,27 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
+        {
             "name": "professorhaseeb/smartOutput",
+            "description": "Smart Output for RESTful PHP APIs",
+            "type": "library",
+            "keywords": ["output","smartOoutput"],
             "version": "dev-master",
+            "license": "MIT",
+            "authors": [
+                    {
+                        "name": "Haseeb Ur Rehman",
+                        "email": "hello@haseeburrehman.com",
+                        "homepage": "https://haseeburrehman",
+                        "role": "Developer"
+                    }
+            ],
             "source": {
                 "url": "git://github.com/professorhaseeb/smartOutput",
                 "type": "git",
                 "reference": "master"
             },
+            "require":{
+                "php": ">=5.5.0"
+            },
             "autoload": {
                 "files": ["smartOutput.php"]
             }
         }
-    }
-]
