@@ -2,7 +2,7 @@
             "name": "professorhaseeb/smart-output",
             "description": "Smart Output for RESTful PHP APIs",
             "type": "library",
-            "keywords": ["output","smartOoutput"],
+            "keywords": ["output","smartOoutput","restful","rest output"],
             "version": "dev-master",
             "license": "MIT",
             "authors": [
